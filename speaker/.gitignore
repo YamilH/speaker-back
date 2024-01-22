@@ -1,0 +1,8 @@
+Users/ 
+.settings/
+.target/
+
+org.eclipse.wst.validation.prefs
+
+.classpath
+.project
