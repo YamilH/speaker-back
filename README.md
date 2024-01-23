@@ -15,26 +15,26 @@ The project follows a specific directory structure to organize the server-side c
 
 ```.
 ├─── speaker
-│       └──  src/main
-│               ├─── java/ar/com/speaker2
-│               │           ├─── controllers
-│               │           │        ├─── NewSpeakerController.java
-│               │           │        └─── SpeakerRequest.java
-│               │           ├─── entity
-│               │           │        ├─── Speaker.java
-│               │           │        └─── SpeakerMain.java
-│               │           ├─── filters
-│               │           │        └─── CorsFilter.java
-│               │           └─── repository
-│               │                    ├─── ConnectionsManager.java
-│               │                    ├─── MainSpeakerRepository.java
-│               │                    ├─── MySQLSpeakerRepository.java
-│               │                    └─── SpeakerRepository.java
-│               └─── webapp
-│                      └─── index.html
-├─── .gitignore
-├─── README.md
-└─── pom.xml
+│       ├──  src/main
+│       │       ├─── java/ar/com/speaker2
+│       │       │           ├─── controllers
+│       │       │           │        ├─── NewSpeakerController.java
+│       │       │           │        └─── SpeakerRequest.java
+│       │       │           ├─── entity
+│       │       │           │        ├─── Speaker.java
+│       │       │           │        └─── SpeakerMain.java
+│       │       │           ├─── filters
+│       │       │           │        └─── CorsFilter.java
+│       │       │           └─── repository
+│       │       │                    ├─── ConnectionsManager.java
+│       │       │                    ├─── MainSpeakerRepository.java
+│       │       │                    ├─── MySQLSpeakerRepository.java
+│       │       │                    └─── SpeakerRepository.java
+│       │       └─── webapp
+│       │              └─── index.html
+│       ├─── .gitignore
+│       └─── pom.xml
+└─── README.md
 
 ```
 
